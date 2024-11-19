@@ -1,0 +1,10 @@
+^C:\PROJECTS\CLIONPROJECTS\EXAMS_PROJECT_SAM\BUILD\CMAKEFILES\9F8EEC55870C06E14632A25F7DB7A02F\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Projects/CLionProjects/Exams_Project_Sam -BC:/Projects/CLionProjects/Exams_Project_Sam/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Projects/CLionProjects/Exams_Project_Sam/build/Exams_Project_Sam.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,3 @@
+C:/Projects/CLionProjects/Exams_Project_Sam/build/CMakeFiles/Exams_Project_Sam.dir
+C:/Projects/CLionProjects/Exams_Project_Sam/build/CMakeFiles/ALL_BUILD.dir
+C:/Projects/CLionProjects/Exams_Project_Sam/build/CMakeFiles/ZERO_CHECK.dir
