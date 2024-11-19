@@ -1,23 +1,26 @@
-# Ignore build files
-/cmake-build-debug/
-/cmake-build-release/
-*.o
-*.obj
-*.exe
-*.out
-*.a
-*.lib
-*.dll
-*.so
-*.dylib
-*.pdb
-*.idb
+# Build directories
+/build/
+/cmake-build-*/
 
-# IDE files
-.idea/
-*.iml
+# Visual Studio specific
+.vscode/
+/.vs/
+/.idea/
+/*.vcxproj.user
+/*.vcxproj.filters
+/*.suo
+/*.user
+/*.sdf
+/*.db
 
-# OS-specific files
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
+# Mac OS specific
 .DS_Store
+
+# Windows specific
 Thumbs.db
-desktop.ini
